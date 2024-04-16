@@ -49,7 +49,7 @@ main{
     flex: 2;
 }
 .contentright{
-   flex: 1;
+    flex: 1;
 }
 main h2{
     font-size: 30px;
@@ -80,7 +80,8 @@ border: 2px solid white;
 }
 .logo{
     border: 2px solid white;
-    padding: 10px 5px;
+    padding: 8px 8px;
+    border-radius: 50%;
 }
 .signup{
     background-color: white;
@@ -90,7 +91,7 @@ border: 2px solid white;
     background-color: black;
     color: white;
 }
-img{
+.merc {
     animation-name: rotate;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -101,7 +102,14 @@ img{
     from{ transform: rotate(-360deg); }
     to{ transform: rotate(360deg); }
 }
-
-
+.logopic{
+    width: 52px;
+    height: 50px;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
 
 
